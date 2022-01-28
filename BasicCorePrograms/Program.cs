@@ -10,8 +10,9 @@ namespace BasicCorePrograms
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to basic program");
+            Console.WriteLine("Welcome to asic program");
             BasicCorePrograms prob = new BasicCorePrograms();
+            prob.Check_leap_year();
             prob.largest_num();
 
             Console.ReadLine();
