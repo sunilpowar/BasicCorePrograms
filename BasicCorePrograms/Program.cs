@@ -12,7 +12,7 @@ namespace BasicCorePrograms
         {
             Console.WriteLine("Welcome to Basic Program");
             BasicCorePrograms prob = new BasicCorePrograms();
-            prob.SwapingOfNumbers();
+            prob.Evenodd();
 
 
             Console.ReadLine();
